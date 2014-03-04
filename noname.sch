@@ -1,0 +1,193 @@
+EESchema Schematic File Version 2  date dom 16 feb 2014 21:40:15 CET
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title "noname.sch"
+Date "16 feb 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	10500 2950 10500 3500
+Wire Wire Line
+	10500 3500 11150 3500
+Wire Wire Line
+	11150 3500 11150 7100
+Wire Wire Line
+	11150 7100 6500 7100
+Wire Wire Line
+	7050 2950 7050 3600
+Wire Wire Line
+	7050 3600 11050 3600
+Wire Wire Line
+	11050 3600 11050 6900
+Wire Wire Line
+	11050 6900 6500 6900
+Wire Wire Line
+	8750 5650 8650 5650
+Wire Wire Line
+	8650 5650 8650 6600
+Wire Wire Line
+	8650 6600 6500 6600
+Wire Bus Line
+	4500 6600 4500 6550
+Wire Bus Line
+	4500 6550 3400 6550
+Wire Bus Line
+	3400 6550 3400 3300
+Wire Bus Line
+	10700 3350 10700 3300
+Wire Bus Line
+	10700 3300 3400 3300
+Wire Bus Line
+	3400 5850 10900 5850
+Wire Wire Line
+	5150 5650 5150 6050
+Wire Wire Line
+	5150 6050 6700 6050
+Wire Wire Line
+	6700 6050 6700 6400
+Wire Wire Line
+	6700 6400 6500 6400
+Wire Wire Line
+	6500 6500 6950 6500
+Wire Wire Line
+	6950 6500 6950 5650
+Wire Wire Line
+	6500 6700 10450 6700
+Wire Wire Line
+	10450 6700 10450 5650
+Wire Wire Line
+	6500 6800 11000 6800
+Wire Wire Line
+	11000 6800 11000 3650
+Wire Wire Line
+	11000 3650 5150 3650
+Wire Wire Line
+	5150 3650 5150 2950
+Wire Wire Line
+	6500 7000 11100 7000
+Wire Wire Line
+	11100 7000 11100 3550
+Wire Wire Line
+	11100 3550 8800 3550
+Wire Wire Line
+	8800 3550 8800 2950
+$Comp
+L 74HCT574_PWR U?
+U 1 1 5301201B
+P 10100 2250
+F 0 "U?" H 10250 2850 60  0000 C CNN
+F 1 "74HCT574_PWR" H 10350 1600 60  0000 C CNN
+	1    10100 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74HCT574_PWR U?
+U 1 1 53012019
+P 8400 2250
+F 0 "U?" H 8550 2850 60  0000 C CNN
+F 1 "74HCT574_PWR" H 8650 1600 60  0000 C CNN
+	1    8400 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74HCT574_PWR U?
+U 1 1 53012016
+P 6650 2250
+F 0 "U?" H 6800 2850 60  0000 C CNN
+F 1 "74HCT574_PWR" H 6900 1600 60  0000 C CNN
+	1    6650 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74HCT574_PWR U?
+U 1 1 53012014
+P 4750 2250
+F 0 "U?" H 4900 2850 60  0000 C CNN
+F 1 "74HCT574_PWR" H 5000 1600 60  0000 C CNN
+	1    4750 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74HCT574_PWR U?
+U 1 1 53012010
+P 4750 4950
+F 0 "U?" H 4900 5550 60  0000 C CNN
+F 1 "74HCT574_PWR" H 5000 4300 60  0000 C CNN
+	1    4750 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74HCT574_PWR U?
+U 1 1 53011FC8
+P 10050 4950
+F 0 "U?" H 10200 5550 60  0000 C CNN
+F 1 "74HCT574_PWR" H 10300 4300 60  0000 C CNN
+	1    10050 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74HCT574_PWR U?
+U 1 1 53011FC6
+P 8350 4950
+F 0 "U?" H 8500 5550 60  0000 C CNN
+F 1 "74HCT574_PWR" H 8600 4300 60  0000 C CNN
+	1    8350 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74HCT574_PWR U?
+U 1 1 53011F9E
+P 6550 4950
+F 0 "U?" H 6700 5550 60  0000 C CNN
+F 1 "74HCT574_PWR" H 6800 4300 60  0000 C CNN
+	1    6550 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74LS138 U?
+U 1 1 53011F61
+P 5900 6750
+F 0 "U?" H 6000 7250 60  0000 C CNN
+F 1 "74LS138" H 6050 6201 60  0000 C CNN
+	1    5900 6750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
